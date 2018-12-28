@@ -90,7 +90,7 @@ img.ex2 { float:right; }
 </head>
 
 
-		
+     	
 		<div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
@@ -104,7 +104,7 @@ img.ex2 { float:right; }
   <div class="carousel-inner">
   
        
-    <div class="carousel-item active"> 
+    <div class="carousel-item active">  
       <img src="{% static 'personal/img/profile.jpg' %}" alt="face" width="500" height="300" hspace="20">
       <img src="{% static 'personal/img/E1.jpg' %}" alt="face" width="500" height="300">
      
@@ -142,6 +142,7 @@ img.ex2 { float:right; }
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+
 			  
 			  
 			  
@@ -173,10 +174,10 @@ img.ex2 { float:right; }
 
 
 
-    <div class="mx-auto" style="width: 1275px;">
+    <div class="mx-auto" style="width: 1275px;"> 
 <!--h2 style="background-color:#ffffff;">Have a look at how our Country is evolving,the changes happening and the massive transformation with the help of these Graphs</h2-->
 <h2 id="myHeader"><font color="#003d66"><font face = "Comic sans MS" size =" 6">Have a look at how our Country is evolving,the changes happening and the massive transformation with the help of these Graphs</font></h2>
- </div></font> 
+ </div></font>  
  
  
  
@@ -192,6 +193,15 @@ img.ex2 { float:right; }
     </div>
     <div class="carousel-item">
      <div id="chartContainer3" class="chart" style="width:100%; height:500px;"></div>
+    </div>
+	 <div class="carousel-item">
+     <div id="chartContainer4" class="chart" style="width:100%; height:500px;"></div>
+    </div>
+	 <div class="carousel-item">
+     <div id="chartContainer5" class="chart" style="width:100%; height:500px;"></div>
+    </div>
+	 <div class="carousel-item">
+     <div id="chartContainer6" class="chart" style="width:100%; height:500px;"></div>
     </div>
   </div>
  
@@ -278,33 +288,128 @@ charts.push(chart);
 chart = new CanvasJS.Chart("chartContainer3",
 {
     title:{
-        text: "Children out of School - Primary (In million)"
+        text: "Forest area(sq km)"
     }, 
     width: width,
     height: height,
     data: [{               
         type: "column",
         dataPoints: [
-            { x:1971 , y:27.93, color:"#008ae6" },
-            { x:1976, y:26.85, color:"#008ae6"},
-            { x: 1981, y: 25.72, color:"#008ae6" },
-            { x: 1986, y: 24.69, color:"#008ae6" },
-            { x: 1991, y: 23.34, color:"#008ae6" },
-            { x: 1996, y: 20.93, color:"#008ae6" },
-            { x: 2001, y: 19.17, color:"#008ae6" },
-			{ x: 2003, y: 13.73, color:"#008ae6" },
-            { x: 2006, y: 6.68, color:"#4db8ff" },
-            { x: 2008, y: 5.60, color:"#4db8ff"},
-			 { x: 2010, y: 4.80, color:"#4db8ff"},
-			 { x: 2012, y: 3.82, color:"#4db8ff"},
-			  { x: 2013, y: 2.89, color:"#4db8ff"}
-			   
+             { x:2000 , y:653900 , color:"#004d80"}, 
+			 { x:2004 , y:672452 , color:"#004d80"},
+             { x:2008 , y:689576 , color:"#004d80"}, 
+             { x:2010 , y:697900 , color:"#004d80"},
+              { x:2012 , y:701468 , color:"#004d80"}, 
+             { x:2014 , y:705036 , color:"#004d80"}, 			  
+			{ x: 2020, y:727504, color:"#66c2ff"},  
+			{ x: 2025, y:745349, color:"#66c2ff"}, 
+             { x: 2030, y:763194, color:"#66c2ff"},
+             { x: 2035, y:781039, color:"#66c2ff"}  			 
         ]
     }
     ]
 });
 chart.render();
 charts.push(chart);
+
+
+chart = new CanvasJS.Chart("chartContainer4",
+{
+    title:{
+        text: "Death Rate (per 1000 people)"
+    }, 
+    width: width,
+    height: height,
+    data: [{               
+        type: "column",
+        dataPoints: [
+            
+			    { x:1980 , y:13.29, color:"#004d80" },
+				 { x:1985 , y:12.12 , color:"#004d80"}, 
+				  { x:1990 , y:10.86 , color:"#004d80"}, 
+				  { x:1995 , y:9.57 , color:"#004d80"}, 
+				   { x:2000 , y:8.69 , color:"#004d80"}, 
+				    { x:2005 , y:8.08 , color:"#004d80"}, 
+				 { x:2010 , y:7.53 , color:"#004d80"}, 
+				  { x:2015 , y:7.30 , color:"#004d80"}, 
+				{ x: 2020, y:5.84, color:"#66c2ff"},  
+				{ x: 2025, y:4.97, color:"#66c2ff"},  
+				{ x: 2030, y:4.09, color:"#66c2ff"}, 
+                  { x: 2035, y:3.22, color:"#66c2ff"}, 
+                 { x: 2045, y:1.48, color:"#66c2ff"},
+                 { x: 2054, y:0.08, color:"#66c2ff"}				 
+        ]
+    }
+    ]
+});
+chart.render();
+charts.push(chart);
+
+
+chart = new CanvasJS.Chart("chartContainer5",
+{
+    title:{
+        text: "Births attended by skilled health staff"
+    }, 
+    width: width,
+    height: height,
+    data: [{               
+        type: "column",
+        dataPoints: [
+            
+			    { x:1993 , y:34.20, color:"#004d80" },
+				 { x:1998 , y:40.95 , color:"#004d80"}, 
+				  { x:2003 , y:44.55 , color:"#004d80"}, 
+				  { x:2008 , y:52.30 , color:"#004d80"}, 
+				   { x:2013 , y:70.49 , color:"#004d80"}, 
+				    { x:2015 , y:77.76 , color:"#004d80"}, 
+				 { x:2016 , y:81.40 , color:"#004d80"}, 
+				  { x:2015 , y:7.30 , color:"#004d80"}, 
+				{ x: 2020, y:78.73, color:"#66c2ff"},  
+				{ x: 2025, y:88.15, color:"#66c2ff"},  
+				{ x: 2031, y:99.45, color:"#66c2ff"} 
+                  			 
+        ]
+    }
+    ]
+});
+chart.render();
+charts.push(chart);
+
+
+
+chart = new CanvasJS.Chart("chartContainer6",
+{
+    title:{
+        text: "Life expectancy over the years"
+    }, 
+    width: width,
+    height: height,
+    data: [{               
+        type: "column",
+        dataPoints: [
+            
+			    { x:1980 , y:53.90, color:"#004d80" },
+				 { x:1985 , y:56 , color:"#004d80"}, 
+				  { x:1990 , y:58.30 , color:"#004d80"}, 
+				  { x:1995 , y:61.10 , color:"#004d80"}, 
+				   { x:2000 , y:63.40 , color:"#004d80"}, 
+				    { x:2005 , y:65.40 , color:"#004d80"}, 
+				 { x:2010 , y:67.80 , color:"#004d80"}, 
+				  { x:2015 , y:69.90 , color:"#004d80"}, 
+				{ x: 2020, y:72.16, color:"#66c2ff"},  
+				{ x: 2025, y:74.48, color:"#66c2ff"},  
+				{ x: 2030, y:76.18, color:"#66c2ff"}, 
+				{ x: 2035, y:79.13, color:"#66c2ff"},
+				{ x: 2050, y:86.11, color:"#66c2ff"} 
+                  			 
+        ]
+    }
+    ]
+});
+chart.render();
+charts.push(chart);
+
 
 $(window).resize(function() {
     for(var i = 0; i < charts.length; i++) {

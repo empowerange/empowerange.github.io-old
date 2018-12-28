@@ -31,6 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'team', 
+    'contributions', 
+    'work', 
+    'cities', 
+    'partners', 
+    'Mission', 
+    'aboutus',
     'volunteer',
     'ngos', 
     'blogs',
