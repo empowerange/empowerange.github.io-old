@@ -1,29 +1,58 @@
 body{
-    background-color: #EEEEEE;
+    
 }
 
 .img1 {
 	width: 100%;
 }
 
+nav{
+    height: 60px ;
+    background: white !important;
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+
+}
 .imgProfile{
     height : 300px;
     width: 500px;
 }
 
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    }
 
 
 
 
-.active{
+.navbar .active{
     color:blue !important;
+    border-bottom: 1px solid blue;
+    height: 100%;
 }
-
+.sliders{
+    height: 2%;
+}
 .brand{
 
 }
-.brand : :hover{
+.brand  :hover{
     color: blue !important;
+}
+.profile-card{
+    
+  width: 50%;
+  /* min-width: 80%; */
+  min-height: 80%;
+  width: 200px;
+}
+
+.profile-card p{
+    font-size: .8em;
 }
 
 /* footer classes */
@@ -32,10 +61,13 @@ body{
   left: 0;
   bottom: 0;
   width: 100%;
- background:#EEEEEE; 
+ background:black !important; 
   text-align: center;
+  padding-top: 30px;
 }
-
+.jumbotron{
+    background: white;
+}
 
 
 
@@ -107,4 +139,7 @@ border: 1px solid grey;
 width: 100%;
 padding: 10px;
 border-radius: 10px;
+}
+.row img{
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
 }
