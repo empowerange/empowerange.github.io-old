@@ -12,8 +12,17 @@ nav{
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
 
 }
+nav .navbar-brand{
+    font-size: 1.6em;
+}
 nav li {
     background: white;
+    font-size: 1.2em;
+    transition: transform .6s;
+}
+nav li  :hover{
+    border-bottom: 2px solid blue;
+    transition: transform .6s;
 }
 .imgProfile{
     height : 300px;
@@ -34,7 +43,7 @@ nav li {
 
 .navbar .active{
     color:blue !important;
-    border-bottom: 1px solid blue;
+    /* border-bottom: 1px solid blue; */
     height: 100%;
 }
 .sliders img{
