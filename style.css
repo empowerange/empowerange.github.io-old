@@ -12,6 +12,9 @@ nav{
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
 
 }
+nav li {
+    background: white;
+}
 .imgProfile{
     height : 300px;
     width: 500px;
@@ -34,8 +37,8 @@ nav{
     border-bottom: 1px solid blue;
     height: 100%;
 }
-.sliders{
-    height: 2%;
+.sliders img{
+    height: .7em;;
 }
 .brand{
 
