@@ -7,19 +7,44 @@ body{
 }
 
 nav{
-    height: 60px ;
+    /* height: 60px ; */
     background: white !important;
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 0;
+    padding-right: 20px;
 
 }
 nav .navbar-brand{
     font-size: 1.6em;
+    background: #01CBE1 !important;
+    color: white !important;
+    height: 100%;
+    width: 250px;
+    text-align: center;    
 }
+
+.col-sm-6{
+    padding-right: 0;
+    padding: 0;
+}
+
+.footer{
+    color:white !important;
+}
+
+.row{
+    margin: 0;
+    /* margin-top: 5%; */
+  }
+  
 nav li {
     background: white;
     font-size: 1.2em;
     transition: transform .6s;
     color: black !important;
+    height: 100% !important;
+    padding: 0 !important;
+    
 }
 nav li  :hover{
     border-bottom: 2px solid blue;
@@ -55,6 +80,7 @@ nav li  :hover{
 }
 .brand  :hover{
     color: blue !important;
+
 }
 .profile-card{
     
@@ -79,7 +105,8 @@ nav li  :hover{
   padding-top: 30px;
 }
 .jumbotron{
-    background: white;
+    background: #205773;
+    color: white;
 }
 
 
@@ -155,4 +182,7 @@ border-radius: 10px;
 }
 .row img{
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+}
+.row{
+
 }
