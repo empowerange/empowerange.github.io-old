@@ -9,7 +9,7 @@ body{
 }
 
 .img-slider{
-height: 600px !important;
+max-height: 600px !important;
 width: 100% !important;
 }
 h3 p{

@@ -3,10 +3,29 @@
 <head>
 	<title>Empowerange</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- --------------------jquery lib -------------------->
+<script src="../libs/js/jquery-3.3.1.js.js"></script>
+ 
+<!-- ------------------- bootstrap ------------------- -->
+<link rel="stylesheet" type="text/css" href="../libs/css/bootstrap.css">
 
+<!-- ------------------- bootstrap script ------------------- -->
+<script src="../libs/js/bootstrap.js"></script>
+
+<!-- -------------------font awesome------------------- -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+<!-- --------------------app level script-------------------- -->
+<script src="../script.js"></script>
+
+<!-- --------------------app level stylesheet-------------------- -->
+    <link rel="stylesheet" href="../style.css">
+
+<!-- --------------------page level script-------------------- -->
+<script src="script.js"></script>
+
+<!-- --------------------page level stylesheet-------------------- -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body  >
 		<nav class="navbar navbar-fixed-top navbar-default   ">
@@ -22,13 +41,12 @@
 					</div>
 					<div class="collapse navbar-collapse navbar-right " id="bs-nav-demo">
 						<ul class="nav navbar-nav text-center">
-												<li class="active"><a href="index.html" class="active"> Home</a></li>
-												<li><a href="ngo.html" >NGO's </a></li>
-												<li><a href="mission.html">Mission </a></li>
-												<li><a href="partners.html">Partners </a></li>
-										
-												<li><a href="team.html">Our Team </a></li>
-										</ul>
+							<li class="active"><a href="../index/index.html" class="active"> Home</a></li>
+							<li><a href="../ngo/ngo.html" >NGO's </a></li>
+							<li><a href="../mission/mission.html">Mission </a></li>
+							<li><a href="../partners/partners.html">Partners </a></li>
+							<li><a href="../team/team.html" style="padding-right:20px;">Team  </a></li>
+						</ul>
 					</div>
 				</div>
 			</nav>
@@ -46,7 +64,7 @@
 <hr>
 		<div class="text-center"><i class='fas fa-users' style='font-size:48px;color:#009900'><h3>Contributing Phase</h3></i><p>After the citizen gets contacted with all the details on various methods of contribution, the citizen can finally start making the contributions or volunteering with the concerned NGO(s).</p></div>
 <hr>
-		<div class="text-center"><i class='fas fa-paper-plane' style='font-size:48px;color:#009900'><h3>Feedback</h3></i><p>The contibutors, and the volunteers will be expected to share their feedback by sharing the experience, after they make their contributions to an NGO or after the end of the volunteering period. Feedbacks will help us to serve the society more efficiently.</p></div>
+		<div class="text-center"><i class='fas fa-paper-plane' 	style='font-size:48px;color:#009900'><h3>Feedback</h3></i><p>The contibutors, and the volunteers will be expected to share their feedback by sharing the experience, after they make their contributions to an NGO or after the end of the volunteering period. Feedbacks will help us to serve the society more efficiently.</p></div>
 
 
 
@@ -64,13 +82,13 @@
 	 
 			<div class="row">           
 						 <div class="col-md-8  text-left">
-									<a href="ngo.html">NGO's </a>
-									<br>
-							<a class="" href="blog.html">Blog </a>
+							<a href="../ngo/ngo.html">NGOs </a>
 							<br>
-							<a href="cities.html">Cities coverd</a><br>
+							<a class="" href="../blog/blog.html">Blog </a>
+							<br>
+							<a href="../cities/cities.html">Cities coverd</a><br>
 							<a href="work.html">How We Work! </a><br>
-							<a href="Contributibution.html">Make Contributibution</a>
+							<a href="../contribution/Contribution.html">Make Contributibution</a>
 						 </div>
 							<div class="col-md-4">
 									<input type="text" name="email" id="mail" class="form-control"  placeholder="Subscribe to our newsletter">
