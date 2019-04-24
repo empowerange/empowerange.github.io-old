@@ -7,15 +7,10 @@ body{
     margin: 0;
 
 }
-.img1{
-/* height : ; */
-width: 100vw;
-  /* Full height */
-  height: 100vh;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.img-slider{
+height: 600px !important;
+width: 100% !important;
 }
 h3 p{
     margin-top: 1.2em;
@@ -65,8 +60,8 @@ nav li  :hover{
     transition: transform .6s;
 }
 .imgProfile{
-    height : 300px;
-    width: 500px;
+    height : 350px;
+    width: 600px;
 }
 nav a{
     height: 60px !important;
@@ -174,4 +169,12 @@ border-radius: 10px;
 .col-md-8 a{
     font-size: 18px;
     color: white;
+}
+
+.quotes{
+    font-size: 1.5em;
+}
+
+.slider-div p{
+    margin:100px;
 }
