@@ -2,7 +2,8 @@
     margin: 100px 0;
 }
 .join-div{
- background-color:rgb(1, 203, 225);
+ /* background-color:rgb(1, 203, 225); */
+ color: #003755;
 }
 .jumbotron{
     margin: 0;
@@ -14,7 +15,7 @@
 .tab {
     overflow: hidden;
     /* border: 1px solid #ccc; */
-    background-color: rgb(1, 203, 225);
+    background-color: #f1f1f1
   }
   
   /* Style the buttons inside the tab */

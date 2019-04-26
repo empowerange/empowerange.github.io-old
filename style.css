@@ -1,5 +1,6 @@
 body{
     padding-top: 40px;
+    color:#003755;
 }
 *{
     font-weight: normal;
@@ -165,7 +166,7 @@ border-radius: 10px;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
 }
 
-.col-md-8 a{
+.col-md-4 a{
     font-size: 18px;
     color: white;
 }
