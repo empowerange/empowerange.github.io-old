@@ -13,8 +13,8 @@
 /* tabs styles */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    /* border: 1px solid #ccc; */
+    background-color: rgb(1, 203, 225);
   }
   
   /* Style the buttons inside the tab */
@@ -36,13 +36,38 @@
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: #ccc;
+    background-color: #003755;
+    color: white;
   }
   
+  .default-tab{
+    display:"block";
+  }
   /* Style the tab content */
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
+    padding :50px;
+    text-align: center; 
+    background-color: #003755;
+    color: white;
   }
+
+  .col-sm-6 i{
+    color: #003755 !important;
+  }
+
+  .carousel-inner{
+    background-color: #003755;
+  }
+  .carousel-inner .item{
+    background-color: #003755 !important;
+    color: white;
+  }
+  .quotes{
+    margin: 100px;
+    font-size: 1.4em;
+    text-align: center;
+ }
+ 
