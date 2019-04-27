@@ -121,10 +121,13 @@ color: red !important;
 }
 .jumbotron{
     background: white;
-    color: black;
+    color: #003755;
     margin-bottom: 0;
 }
 
+.jumbotron i{
+    color: #003755 !important;
+}
 
 
 .social:hover {
